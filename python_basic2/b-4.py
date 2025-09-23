@@ -38,10 +38,6 @@ def get_station_by_pref(result, prefecture):
 if __name__ == "__main__":
     result = main()
 
-    # print(f"{get_average_temperature(result)} ℃")
-    # print(repr(get_station_by_pref(result, "大阪府")))
-    # print(f"{get_average_temperature_by_pref(result, '福岡県')} ℃")
-
 print(
     f"全国 平均気温: {get_average_temperature(result)} ℃\n"
     f"大阪府の駅: {repr(get_station_by_pref(result, "大阪府"))}\n"
