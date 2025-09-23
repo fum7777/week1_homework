@@ -1,4 +1,4 @@
-num = input("データを入力してください(スペース区切り)")
+num = input("データを入力してください(スペース区切り) > ")
 num_list = list(map(int, num.split()))
 
 
